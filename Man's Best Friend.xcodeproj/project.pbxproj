@@ -208,6 +208,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = edu.self.bryn;
 				TargetAttributes = {
+					4BD53C5F1818A74A00AB1A74 = {
+						DevelopmentTeam = 79Z5TDFM5V;
+					};
 					4BD53C801818A74A00AB1A74 = {
 						TestTargetID = 4BD53C5F1818A74A00AB1A74;
 					};
@@ -389,10 +392,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Man's Best Friend/Man's Best Friend-Prefix.pch";
 				INFOPLIST_FILE = "Man's Best Friend/Man's Best Friend-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,10 +408,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Man's Best Friend/Man's Best Friend-Prefix.pch";
 				INFOPLIST_FILE = "Man's Best Friend/Man's Best Friend-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
