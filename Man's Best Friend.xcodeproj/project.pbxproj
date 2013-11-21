@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B00767E181A10CB0041AF55 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B00767D181A10CB0041AF55 /* MBFDog.m */; };
+		4B007680181E1D080041AF55 /* franklyn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B00767F181E1D080041AF55 /* franklyn.png */; };
 		4BD53C641818A74A00AB1A74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD53C631818A74A00AB1A74 /* Foundation.framework */; };
 		4BD53C661818A74A00AB1A74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD53C651818A74A00AB1A74 /* CoreGraphics.framework */; };
 		4BD53C681818A74A00AB1A74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD53C671818A74A00AB1A74 /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B00767C181A10CB0041AF55 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		4B00767D181A10CB0041AF55 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
+		4B00767F181E1D080041AF55 /* franklyn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = franklyn.png; sourceTree = "<group>"; };
 		4BD53C601818A74A00AB1A74 /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD53C631818A74A00AB1A74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4BD53C651818A74A00AB1A74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +122,8 @@
 				4BD53C751818A74A00AB1A74 /* Main.storyboard */,
 				4BD53C781818A74A00AB1A74 /* MBFViewController.h */,
 				4BD53C791818A74A00AB1A74 /* MBFViewController.m */,
+				4B00767C181A10CB0041AF55 /* MBFDog.h */,
+				4B00767D181A10CB0041AF55 /* MBFDog.m */,
 				4BD53C7B1818A74A00AB1A74 /* Images.xcassets */,
 				4BD53C6A1818A74A00AB1A74 /* Supporting Files */,
 			);
@@ -126,6 +133,7 @@
 		4BD53C6A1818A74A00AB1A74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4B00767F181E1D080041AF55 /* franklyn.png */,
 				4BD53C6B1818A74A00AB1A74 /* Man's Best Friend-Info.plist */,
 				4BD53C6C1818A74A00AB1A74 /* InfoPlist.strings */,
 				4BD53C6F1818A74A00AB1A74 /* main.m */,
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B007680181E1D080041AF55 /* franklyn.png in Resources */,
 				4BD53C7C1818A74A00AB1A74 /* Images.xcassets in Resources */,
 				4BD53C6E1818A74A00AB1A74 /* InfoPlist.strings in Resources */,
 				4BD53C771818A74A00AB1A74 /* Main.storyboard in Resources */,
@@ -252,6 +261,7 @@
 			files = (
 				4BD53C741818A74A00AB1A74 /* MBFAppDelegate.m in Sources */,
 				4BD53C7A1818A74A00AB1A74 /* MBFViewController.m in Sources */,
+				4B00767E181A10CB0041AF55 /* MBFDog.m in Sources */,
 				4BD53C701818A74A00AB1A74 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +471,7 @@
 				4BD53C941818A74A00AB1A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BD53C951818A74A00AB1A74 /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +480,7 @@
 				4BD53C971818A74A00AB1A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
